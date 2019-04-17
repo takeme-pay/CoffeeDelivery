@@ -9,8 +9,9 @@
 #import "TMPCoffeeBuyingViewController.h"
 
 typedef NS_ENUM(NSInteger, TMPExampleResult) {
-    TMPExamplePaymentSuccessResult,
-    TMPExamplePaymentFailedResult
+    TMPCoffeeDeliveryPaymentSuccessResult,
+    TMPCoffeeDeliveryPaymentFailedResult,
+    TMPCoffeeDeliveryPaymentCanceled
 };
 
 @interface TMPCoffeeBuyingViewController ()
@@ -34,13 +35,15 @@ typedef NS_ENUM(NSInteger, TMPExampleResult) {
 
 - (void)alertWithResult:(TMPExampleResult)result {
     NSDictionary<NSNumber *, NSString *> *titles = @{
-                                                     @(TMPExamplePaymentFailedResult) : @"Payment error",
-                                                     @(TMPExamplePaymentSuccessResult) : @"Payment success"
+                                                     @(TMPCoffeeDeliveryPaymentFailedResult) : @"Payment failed",
+                                                     @(TMPCoffeeDeliveryPaymentCanceled) : @"Payment canceled",
+                                                     @(TMPCoffeeDeliveryPaymentSuccessResult) : @"Payment success"
                                                      };
     
     NSDictionary<NSNumber *, NSString *> *messages = @{
-                                                      @(TMPExamplePaymentFailedResult) : @"Payment error with specific payment method, please check the logs",
-                                                      @(TMPExamplePaymentSuccessResult) : @"You got a coffee :)"
+                                                      @(TMPCoffeeDeliveryPaymentFailedResult) : @"Payment error with specific payment method, please check the logs",
+                                                      @(TMPCoffeeDeliveryPaymentCanceled) : @"You canceled the payment",
+                                                      @(TMPCoffeeDeliveryPaymentSuccessResult) : @"You got a coffee :)"
                                                       };
     
     UIAlertController *alertViewController = [UIAlertController alertControllerWithTitle:titles[@(result)] message:messages[@(result)] preferredStyle:UIAlertControllerStyleAlert];
