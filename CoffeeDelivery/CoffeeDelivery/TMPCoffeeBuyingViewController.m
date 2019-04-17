@@ -11,8 +11,9 @@
 #import <TakeMePaySDK/TMPPaymentServiceClient.h>
 
 typedef NS_ENUM(NSInteger, TMPExampleResult) {
-    TMPExamplePaymentSuccessResult,
-    TMPExamplePaymentFailedResult
+    TMPCoffeeDeliveryPaymentSuccessResult,
+    TMPCoffeeDeliveryPaymentFailedResult,
+    TMPCoffeeDeliveryPaymentCanceled
 };
 
 @interface TMPCoffeeBuyingViewController () <TMPPaymentDelegate>
@@ -37,7 +38,7 @@ typedef NS_ENUM(NSInteger, TMPExampleResult) {
     self.inProgress = YES;
     
     // 1. init a source params with necessary information.
-    TMPSourceParams *params = [[TMPSourceParams alloc] initWithDescription:@"Coffee Delivery Service" amount:1 currency:@"JPY"];
+    TMPSourceParams *params = [[TMPSourceParams alloc] initWithDescription:@"Coffee Delivery Service" amount:10 currency:@"JPY"];
     
     // 2. create TMPPayment from sourceParams, ephemerKeyProvider and delegate.
     TMPPayment *payment = [[TMPPayment alloc] initWithSourceParams:params delegate:self];
@@ -50,13 +51,15 @@ typedef NS_ENUM(NSInteger, TMPExampleResult) {
 
 - (void)alertWithResult:(TMPExampleResult)result {
     NSDictionary<NSNumber *, NSString *> *titles = @{
-                                                     @(TMPExamplePaymentFailedResult) : @"Payment error",
-                                                     @(TMPExamplePaymentSuccessResult) : @"Payment success"
+                                                     @(TMPCoffeeDeliveryPaymentFailedResult) : @"Payment failed",
+                                                     @(TMPCoffeeDeliveryPaymentCanceled) : @"Payment canceled",
+                                                     @(TMPCoffeeDeliveryPaymentSuccessResult) : @"Payment success"
                                                      };
     
     NSDictionary<NSNumber *, NSString *> *messages = @{
-                                                      @(TMPExamplePaymentFailedResult) : @"Payment error with specific payment method, please check the logs",
-                                                      @(TMPExamplePaymentSuccessResult) : @"You got a coffee :)"
+                                                      @(TMPCoffeeDeliveryPaymentFailedResult) : @"Payment error with specific payment method, please check the logs",
+                                                      @(TMPCoffeeDeliveryPaymentCanceled) : @"You canceled the payment",
+                                                      @(TMPCoffeeDeliveryPaymentSuccessResult) : @"You got a coffee :)"
                                                       };
     
     UIAlertController *alertViewController = [UIAlertController alertControllerWithTitle:titles[@(result)] message:messages[@(result)] preferredStyle:UIAlertControllerStyleAlert];
@@ -74,9 +77,11 @@ typedef NS_ENUM(NSInteger, TMPExampleResult) {
     self.inProgress = NO;
     
     if (state == TMPPaymentRequestStateSuccess) {
-        [self alertWithResult:TMPExamplePaymentSuccessResult];
+        [self alertWithResult:TMPCoffeeDeliveryPaymentSuccessResult];
+    } else if (state == TMPPaymentRequestStateCanceled) {
+        [self alertWithResult:TMPCoffeeDeliveryPaymentCanceled];
     } else {
-        [self alertWithResult:TMPExamplePaymentFailedResult];
+        [self alertWithResult:TMPCoffeeDeliveryPaymentFailedResult];
     }
 }
 
