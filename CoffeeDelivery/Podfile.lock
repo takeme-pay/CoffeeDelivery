@@ -1,0 +1,21 @@
+PODS:
+  - TakeMePaySDK (0.0.19)
+  - TakeMePaySDK-WeChatPaySupport (0.0.3):
+    - TakeMePaySDK (~> 0.0.19)
+
+DEPENDENCIES:
+  - TakeMePaySDK
+  - TakeMePaySDK-WeChatPaySupport
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - TakeMePaySDK
+    - TakeMePaySDK-WeChatPaySupport
+
+SPEC CHECKSUMS:
+  TakeMePaySDK: 90af1f237299eccf23f752ec96295b4d1296b02c
+  TakeMePaySDK-WeChatPaySupport: eeaae926a434ca408463cff4d61baea25e24b42c
+
+PODFILE CHECKSUM: e603dfd26fb728424fd52a2585b28a83c39a8ed2
+
+COCOAPODS: 1.6.1
