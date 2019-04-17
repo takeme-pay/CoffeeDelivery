@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import <TakeMePaySDK/TakeMePaySDK.h>
 
 @interface AppDelegate ()
 
@@ -17,10 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    TakeMePay.publicKey = @"pk_test_sDkS-Zn8sf8iv0HgW7S9HBLd1LRwk7aAQ9yWVghD";
-    TakeMePay.wechatPayAppId = @"wxf2ac9aae739daee5";
-    
+    // Override point for customization after application launch.    
     return YES;
 }
 
@@ -49,10 +45,6 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
-
-- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-    return [TakeMePay shouldHandleWithUrl:url];
 }
 
 @end
