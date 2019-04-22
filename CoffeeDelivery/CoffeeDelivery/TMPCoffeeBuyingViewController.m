@@ -1,6 +1,6 @@
 //
 //  TMPCoffeeBuyingViewController.m
-//  TakeMePayExample
+//  CoffeeDelivery
 //
 //  Created by tianren.zhu on 2019/1/2.
 //  Copyright © 2019 JapanFoodie. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "TMPCoffeeBuyingViewController.h"
 
-typedef NS_ENUM(NSInteger, TMPExampleResult) {
+typedef NS_ENUM(NSInteger, TMPCoffeeDeliveryPaymentResult) {
     TMPCoffeeDeliveryPaymentSuccessResult,
     TMPCoffeeDeliveryPaymentFailedResult,
     TMPCoffeeDeliveryPaymentCanceled
@@ -33,7 +33,7 @@ typedef NS_ENUM(NSInteger, TMPExampleResult) {
 
 #pragma mark - private
 
-- (void)alertWithResult:(TMPExampleResult)result {
+- (void)alertWithResult:(TMPCoffeeDeliveryPaymentResult)result {
     NSDictionary<NSNumber *, NSString *> *titles = @{
                                                      @(TMPCoffeeDeliveryPaymentFailedResult) : @"Payment failed",
                                                      @(TMPCoffeeDeliveryPaymentCanceled) : @"Payment canceled",

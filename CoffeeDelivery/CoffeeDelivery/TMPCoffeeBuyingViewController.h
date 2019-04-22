@@ -1,6 +1,6 @@
 //
 //  TMPCoffeeBuyingViewController.h
-//  TakeMePayExample
+//  CoffeeDelivery
 //
 //  Created by tianren.zhu on 2019/1/2.
 //  Copyright © 2019 JapanFoodie. All rights reserved.
