@@ -53,11 +53,11 @@ typedef NS_ENUM(NSInteger, TMPExampleResult) {
     NSDictionary<NSNumber *, NSString *> *titles = @{
                                                      @(TMPCoffeeDeliveryPaymentFailedResult) : @"Payment failed",
                                                      @(TMPCoffeeDeliveryPaymentCanceled) : @"Payment canceled",
-                                                     @(TMPCoffeeDeliveryPaymentSuccessResult) : @"Payment success"
+                                                     @(TMPCoffeeDeliveryPaymentSuccessResult) : @"Payment succeeded"
                                                      };
     
     NSDictionary<NSNumber *, NSString *> *messages = @{
-                                                      @(TMPCoffeeDeliveryPaymentFailedResult) : @"Payment error with specific payment method, please check the logs",
+                                                      @(TMPCoffeeDeliveryPaymentFailedResult) : @"Payment failed with specific payment method, please check the logs",
                                                       @(TMPCoffeeDeliveryPaymentCanceled) : @"You canceled the payment",
                                                       @(TMPCoffeeDeliveryPaymentSuccessResult) : @"You got a coffee :)"
                                                       };
