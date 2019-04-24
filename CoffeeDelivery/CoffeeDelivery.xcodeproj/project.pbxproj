@@ -7,268 +7,99 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B85BDA3AB1C8B3834D19505 /* libPods-CoffeeDeliveryUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2497DC3E1984A5CD7883D0D /* libPods-CoffeeDeliveryUITests.a */; };
-		2180593C5BB941D5EFE38A98 /* libPods-CoffeeDeliveryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD739B51961F39C84F4F22F6 /* libPods-CoffeeDeliveryTests.a */; };
-		8A9E35B54D6D8BF5BB2D1220 /* libPods-TakeMePaySDKDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 570CFFFBDEF25B4BE99F1588 /* libPods-TakeMePaySDKDemoTests.a */; };
-		8C204AD89A99067E4C740C40 /* libPods-CoffeeDelivery.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD36909B1A1CBBDE7CFF258 /* libPods-CoffeeDelivery.a */; };
-		CEEC133821F8596800D393B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC133721F8596800D393B1 /* AppDelegate.m */; };
-		CEEC134321F8596900D393B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEC134121F8596900D393B1 /* LaunchScreen.storyboard */; };
-		CEEC134621F8596900D393B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC134521F8596900D393B1 /* main.m */; };
-		CEEC135021F8596900D393B1 /* CoffeeDeliveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC134F21F8596900D393B1 /* CoffeeDeliveryTests.m */; };
-		CEEC135B21F8596900D393B1 /* CoffeeDeliveryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC135A21F8596900D393B1 /* CoffeeDeliveryUITests.m */; };
-		CEEC136A21F85B9500D393B1 /* TMPCoffeeBuyingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEEC136821F85B9500D393B1 /* TMPCoffeeBuyingViewController.m */; };
-		CEEC136C21F85BA000D393B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEC136B21F85BA000D393B1 /* Main.storyboard */; };
-		CEEC136E21F85BBB00D393B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEEC136D21F85BBB00D393B1 /* Assets.xcassets */; };
-		E3E248B885F60C65243EEBDE /* libPods-TakeMePaySDKDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1A1FE01852AEA55EEE72C2 /* libPods-TakeMePaySDKDemoUITests.a */; };
+		13CA92FF226FF46600FCB226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA92FE226FF46600FCB226 /* AppDelegate.swift */; };
+		13CA9301226FF46600FCB226 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA9300226FF46600FCB226 /* ViewController.swift */; };
+		13CA9304226FF46600FCB226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CA9302226FF46600FCB226 /* Main.storyboard */; };
+		13CA9306226FF46600FCB226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CA9305226FF46600FCB226 /* Assets.xcassets */; };
+		13CA9309226FF46600FCB226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CA9307226FF46600FCB226 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		CEEC134C21F8596900D393B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEEC132B21F8596800D393B1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEEC133221F8596800D393B1;
-			remoteInfo = TakeMePaySDKDemo;
-		};
-		CEEC135721F8596900D393B1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEEC132B21F8596800D393B1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEEC133221F8596800D393B1;
-			remoteInfo = TakeMePaySDKDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		040AA7F6907DCE8D49A17DD6 /* libPods-TakeMePaySDKDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeMePaySDKDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ED2E29CEFB37C0BF32570BE /* Pods-CoffeeDelivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeDelivery.release.xcconfig"; path = "Target Support Files/Pods-CoffeeDelivery/Pods-CoffeeDelivery.release.xcconfig"; sourceTree = "<group>"; };
-		15709EEAB5D97D3FEC2A767B /* Pods-CoffeeDelivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeDelivery.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeDelivery/Pods-CoffeeDelivery.debug.xcconfig"; sourceTree = "<group>"; };
-		428509C29F5135388E62A9B5 /* Pods-CoffeeDeliveryUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeDeliveryUITests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeDeliveryUITests/Pods-CoffeeDeliveryUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		570CFFFBDEF25B4BE99F1588 /* libPods-TakeMePaySDKDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeMePaySDKDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B1A1FE01852AEA55EEE72C2 /* libPods-TakeMePaySDKDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakeMePaySDKDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FFE14DBA4520FA161DBDDF1 /* Pods-CoffeeDeliveryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeDeliveryTests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeDeliveryTests/Pods-CoffeeDeliveryTests.release.xcconfig"; sourceTree = "<group>"; };
-		CEEC133321F8596800D393B1 /* CoffeeDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEEC133621F8596800D393B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		CEEC133721F8596800D393B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CEEC134221F8596900D393B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CEEC134421F8596900D393B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEEC134521F8596900D393B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CEEC134B21F8596900D393B1 /* CoffeeDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEEC134F21F8596900D393B1 /* CoffeeDeliveryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeDeliveryTests.m; sourceTree = "<group>"; };
-		CEEC135121F8596900D393B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEEC135621F8596900D393B1 /* CoffeeDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEEC135A21F8596900D393B1 /* CoffeeDeliveryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoffeeDeliveryUITests.m; sourceTree = "<group>"; };
-		CEEC135C21F8596900D393B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEEC136821F85B9500D393B1 /* TMPCoffeeBuyingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMPCoffeeBuyingViewController.m; sourceTree = "<group>"; };
-		CEEC136921F85B9500D393B1 /* TMPCoffeeBuyingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMPCoffeeBuyingViewController.h; sourceTree = "<group>"; };
-		CEEC136B21F85BA000D393B1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		CEEC136D21F85BBB00D393B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CEED3EE421F8682300A593B1 /* TakeMePaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TakeMePaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEED40A521F95F4000A593B1 /* libTakeMeFoundation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libTakeMeFoundation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2497DC3E1984A5CD7883D0D /* libPods-CoffeeDeliveryUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeDeliveryUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D96B3F38160CACC119FB1C27 /* Pods-CoffeeDeliveryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeDeliveryUITests.release.xcconfig"; path = "Target Support Files/Pods-CoffeeDeliveryUITests/Pods-CoffeeDeliveryUITests.release.xcconfig"; sourceTree = "<group>"; };
-		DD739B51961F39C84F4F22F6 /* libPods-CoffeeDeliveryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeDeliveryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFD36909B1A1CBBDE7CFF258 /* libPods-CoffeeDelivery.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CoffeeDelivery.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE590AB0194E1F3EEFC0EBC9 /* Pods-CoffeeDeliveryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeDeliveryTests.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeDeliveryTests/Pods-CoffeeDeliveryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		13CA92FB226FF46600FCB226 /* CoffeeDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CA92FE226FF46600FCB226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13CA9300226FF46600FCB226 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13CA9303226FF46600FCB226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13CA9305226FF46600FCB226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13CA9308226FF46600FCB226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13CA930A226FF46600FCB226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CEEC133021F8596800D393B1 /* Frameworks */ = {
+		13CA92F8226FF46600FCB226 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C204AD89A99067E4C740C40 /* libPods-CoffeeDelivery.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEC134821F8596900D393B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A9E35B54D6D8BF5BB2D1220 /* libPods-TakeMePaySDKDemoTests.a in Frameworks */,
-				2180593C5BB941D5EFE38A98 /* libPods-CoffeeDeliveryTests.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEC135321F8596900D393B1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E3E248B885F60C65243EEBDE /* libPods-TakeMePaySDKDemoUITests.a in Frameworks */,
-				0B85BDA3AB1C8B3834D19505 /* libPods-CoffeeDeliveryUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		501D0E2FF7534B8E982330B9 /* Frameworks */ = {
+		13CA92F2226FF46500FCB226 = {
 			isa = PBXGroup;
 			children = (
-				CEED40A521F95F4000A593B1 /* libTakeMeFoundation.a */,
-				CEED3EE421F8682300A593B1 /* TakeMePaySDK.framework */,
-				040AA7F6907DCE8D49A17DD6 /* libPods-TakeMePaySDKDemo.a */,
-				570CFFFBDEF25B4BE99F1588 /* libPods-TakeMePaySDKDemoTests.a */,
-				7B1A1FE01852AEA55EEE72C2 /* libPods-TakeMePaySDKDemoUITests.a */,
-				EFD36909B1A1CBBDE7CFF258 /* libPods-CoffeeDelivery.a */,
-				DD739B51961F39C84F4F22F6 /* libPods-CoffeeDeliveryTests.a */,
-				D2497DC3E1984A5CD7883D0D /* libPods-CoffeeDeliveryUITests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C2C08A2F82CF9EC3DF5418CB /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				15709EEAB5D97D3FEC2A767B /* Pods-CoffeeDelivery.debug.xcconfig */,
-				0ED2E29CEFB37C0BF32570BE /* Pods-CoffeeDelivery.release.xcconfig */,
-				FE590AB0194E1F3EEFC0EBC9 /* Pods-CoffeeDeliveryTests.debug.xcconfig */,
-				9FFE14DBA4520FA161DBDDF1 /* Pods-CoffeeDeliveryTests.release.xcconfig */,
-				428509C29F5135388E62A9B5 /* Pods-CoffeeDeliveryUITests.debug.xcconfig */,
-				D96B3F38160CACC119FB1C27 /* Pods-CoffeeDeliveryUITests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		CEEC132A21F8596800D393B1 = {
-			isa = PBXGroup;
-			children = (
-				CEEC133521F8596800D393B1 /* CoffeeDelivery */,
-				CEEC134E21F8596900D393B1 /* CoffeeDeliveryTests */,
-				CEEC135921F8596900D393B1 /* CoffeeDeliveryUITests */,
-				CEEC133421F8596800D393B1 /* Products */,
-				501D0E2FF7534B8E982330B9 /* Frameworks */,
-				C2C08A2F82CF9EC3DF5418CB /* Pods */,
+				13CA92FD226FF46600FCB226 /* CoffeeDelivery */,
+				13CA92FC226FF46600FCB226 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CEEC133421F8596800D393B1 /* Products */ = {
+		13CA92FC226FF46600FCB226 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEEC133321F8596800D393B1 /* CoffeeDelivery.app */,
-				CEEC134B21F8596900D393B1 /* CoffeeDeliveryTests.xctest */,
-				CEEC135621F8596900D393B1 /* CoffeeDeliveryUITests.xctest */,
+				13CA92FB226FF46600FCB226 /* CoffeeDelivery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEEC133521F8596800D393B1 /* CoffeeDelivery */ = {
+		13CA92FD226FF46600FCB226 /* CoffeeDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				CEEC133621F8596800D393B1 /* AppDelegate.h */,
-				CEEC133721F8596800D393B1 /* AppDelegate.m */,
-				CEEC136921F85B9500D393B1 /* TMPCoffeeBuyingViewController.h */,
-				CEEC136821F85B9500D393B1 /* TMPCoffeeBuyingViewController.m */,
-				CEEC136B21F85BA000D393B1 /* Main.storyboard */,
-				CEEC134121F8596900D393B1 /* LaunchScreen.storyboard */,
-				CEEC136D21F85BBB00D393B1 /* Assets.xcassets */,
-				CEEC134421F8596900D393B1 /* Info.plist */,
-				CEEC134521F8596900D393B1 /* main.m */,
+				13CA92FE226FF46600FCB226 /* AppDelegate.swift */,
+				13CA9300226FF46600FCB226 /* ViewController.swift */,
+				13CA9302226FF46600FCB226 /* Main.storyboard */,
+				13CA9305226FF46600FCB226 /* Assets.xcassets */,
+				13CA9307226FF46600FCB226 /* LaunchScreen.storyboard */,
+				13CA930A226FF46600FCB226 /* Info.plist */,
 			);
 			path = CoffeeDelivery;
-			sourceTree = "<group>";
-		};
-		CEEC134E21F8596900D393B1 /* CoffeeDeliveryTests */ = {
-			isa = PBXGroup;
-			children = (
-				CEEC134F21F8596900D393B1 /* CoffeeDeliveryTests.m */,
-				CEEC135121F8596900D393B1 /* Info.plist */,
-			);
-			path = CoffeeDeliveryTests;
-			sourceTree = "<group>";
-		};
-		CEEC135921F8596900D393B1 /* CoffeeDeliveryUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CEEC135A21F8596900D393B1 /* CoffeeDeliveryUITests.m */,
-				CEEC135C21F8596900D393B1 /* Info.plist */,
-			);
-			path = CoffeeDeliveryUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEEC133221F8596800D393B1 /* CoffeeDelivery */ = {
+		13CA92FA226FF46600FCB226 /* CoffeeDelivery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEEC135F21F8596900D393B1 /* Build configuration list for PBXNativeTarget "CoffeeDelivery" */;
+			buildConfigurationList = 13CA930D226FF46600FCB226 /* Build configuration list for PBXNativeTarget "CoffeeDelivery" */;
 			buildPhases = (
-				5F7C075715A112EEADA6E563 /* [CP] Check Pods Manifest.lock */,
-				CEEC132F21F8596800D393B1 /* Sources */,
-				CEEC133021F8596800D393B1 /* Frameworks */,
-				CEEC133121F8596800D393B1 /* Resources */,
-				D6DFDD3EDEE6EABBF1FBC617 /* [CP] Embed Pods Frameworks */,
+				13CA92F7226FF46600FCB226 /* Sources */,
+				13CA92F8226FF46600FCB226 /* Frameworks */,
+				13CA92F9226FF46600FCB226 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CoffeeDelivery;
-			productName = TakeMePaySDKDemo;
-			productReference = CEEC133321F8596800D393B1 /* CoffeeDelivery.app */;
+			productName = CoffeeDelivery;
+			productReference = 13CA92FB226FF46600FCB226 /* CoffeeDelivery.app */;
 			productType = "com.apple.product-type.application";
-		};
-		CEEC134A21F8596900D393B1 /* CoffeeDeliveryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEEC136221F8596900D393B1 /* Build configuration list for PBXNativeTarget "CoffeeDeliveryTests" */;
-			buildPhases = (
-				98D6F5FE7D5C56313DB749E4 /* [CP] Check Pods Manifest.lock */,
-				CEEC134721F8596900D393B1 /* Sources */,
-				CEEC134821F8596900D393B1 /* Frameworks */,
-				CEEC134921F8596900D393B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEEC134D21F8596900D393B1 /* PBXTargetDependency */,
-			);
-			name = CoffeeDeliveryTests;
-			productName = TakeMePaySDKDemoTests;
-			productReference = CEEC134B21F8596900D393B1 /* CoffeeDeliveryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CEEC135521F8596900D393B1 /* CoffeeDeliveryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEEC136521F8596900D393B1 /* Build configuration list for PBXNativeTarget "CoffeeDeliveryUITests" */;
-			buildPhases = (
-				9110476FCFD1EA0C11450502 /* [CP] Check Pods Manifest.lock */,
-				CEEC135221F8596900D393B1 /* Sources */,
-				CEEC135321F8596900D393B1 /* Frameworks */,
-				CEEC135421F8596900D393B1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEEC135821F8596900D393B1 /* PBXTargetDependency */,
-			);
-			name = CoffeeDeliveryUITests;
-			productName = TakeMePaySDKDemoUITests;
-			productReference = CEEC135621F8596900D393B1 /* CoffeeDeliveryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CEEC132B21F8596800D393B1 /* Project object */ = {
+		13CA92F3226FF46500FCB226 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1010;
-				ORGANIZATIONNAME = TakeMe.fun;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tyler Wells";
 				TargetAttributes = {
-					CEEC133221F8596800D393B1 = {
-						CreatedOnToolsVersion = 10.1;
-					};
-					CEEC134A21F8596900D393B1 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = CEEC133221F8596800D393B1;
-					};
-					CEEC135521F8596900D393B1 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = CEEC133221F8596800D393B1;
+					13CA92FA226FF46600FCB226 = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
-			buildConfigurationList = CEEC132E21F8596800D393B1 /* Build configuration list for PBXProject "CoffeeDelivery" */;
+			buildConfigurationList = 13CA92F6226FF46500FCB226 /* Build configuration list for PBXProject "CoffeeDelivery" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,185 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = CEEC132A21F8596800D393B1;
-			productRefGroup = CEEC133421F8596800D393B1 /* Products */;
+			mainGroup = 13CA92F2226FF46500FCB226;
+			productRefGroup = 13CA92FC226FF46600FCB226 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEEC133221F8596800D393B1 /* CoffeeDelivery */,
-				CEEC134A21F8596900D393B1 /* CoffeeDeliveryTests */,
-				CEEC135521F8596900D393B1 /* CoffeeDeliveryUITests */,
+				13CA92FA226FF46600FCB226 /* CoffeeDelivery */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CEEC133121F8596800D393B1 /* Resources */ = {
+		13CA92F9226FF46600FCB226 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEC136C21F85BA000D393B1 /* Main.storyboard in Resources */,
-				CEEC136E21F85BBB00D393B1 /* Assets.xcassets in Resources */,
-				CEEC134321F8596900D393B1 /* LaunchScreen.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEC134921F8596900D393B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEC135421F8596900D393B1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				13CA9309226FF46600FCB226 /* LaunchScreen.storyboard in Resources */,
+				13CA9306226FF46600FCB226 /* Assets.xcassets in Resources */,
+				13CA9304226FF46600FCB226 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		5F7C075715A112EEADA6E563 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CoffeeDelivery-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9110476FCFD1EA0C11450502 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CoffeeDeliveryUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		98D6F5FE7D5C56313DB749E4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CoffeeDeliveryTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D6DFDD3EDEE6EABBF1FBC617 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CoffeeDelivery/Pods-CoffeeDelivery-frameworks.sh",
-				"${PODS_ROOT}/TakeMePaySDK/TakeMePaySDK.framework",
-				"${PODS_ROOT}/TakeMePaySDK-WeChatPaySupport/TakeMePayWeChatPaySupport.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TakeMePaySDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TakeMePayWeChatPaySupport.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeDelivery/Pods-CoffeeDelivery-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		CEEC132F21F8596800D393B1 /* Sources */ = {
+		13CA92F7226FF46600FCB226 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEC134621F8596900D393B1 /* main.m in Sources */,
-				CEEC133821F8596800D393B1 /* AppDelegate.m in Sources */,
-				CEEC136A21F85B9500D393B1 /* TMPCoffeeBuyingViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEC134721F8596900D393B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEEC135021F8596900D393B1 /* CoffeeDeliveryTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEEC135221F8596900D393B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEEC135B21F8596900D393B1 /* CoffeeDeliveryUITests.m in Sources */,
+				13CA9301226FF46600FCB226 /* ViewController.swift in Sources */,
+				13CA92FF226FF46600FCB226 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		CEEC134D21F8596900D393B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEEC133221F8596800D393B1 /* CoffeeDelivery */;
-			targetProxy = CEEC134C21F8596900D393B1 /* PBXContainerItemProxy */;
-		};
-		CEEC135821F8596900D393B1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEEC133221F8596800D393B1 /* CoffeeDelivery */;
-			targetProxy = CEEC135721F8596900D393B1 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		CEEC134121F8596900D393B1 /* LaunchScreen.storyboard */ = {
+		13CA9302226FF46600FCB226 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CEEC134221F8596900D393B1 /* Base */,
+				13CA9303226FF46600FCB226 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13CA9307226FF46600FCB226 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CA9308226FF46600FCB226 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -462,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CEEC135D21F8596900D393B1 /* Debug */ = {
+		13CA930B226FF46600FCB226 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -513,15 +213,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		CEEC135E21F8596900D393B1 /* Release */ = {
+		13CA930C226FF46600FCB226 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -566,166 +268,72 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		CEEC136021F8596900D393B1 /* Debug */ = {
+		13CA930E226FF46600FCB226 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15709EEAB5D97D3FEC2A767B /* Pods-CoffeeDelivery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F2634BW29W;
 				INFOPLIST_FILE = CoffeeDelivery/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.takeme.CoffeeDelivery;
+				PRODUCT_BUNDLE_IDENTIFIER = JapanFoodie.CoffeeDelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CEEC136121F8596900D393B1 /* Release */ = {
+		13CA930F226FF46600FCB226 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ED2E29CEFB37C0BF32570BE /* Pods-CoffeeDelivery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F2634BW29W;
 				INFOPLIST_FILE = CoffeeDelivery/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.takeme.CoffeeDelivery;
+				PRODUCT_BUNDLE_IDENTIFIER = JapanFoodie.CoffeeDelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CEEC136321F8596900D393B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE590AB0194E1F3EEFC0EBC9 /* Pods-CoffeeDeliveryTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoffeeDeliveryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.takeme.CoffeeDeliveryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeDelivery.app/CoffeeDelivery";
-			};
-			name = Debug;
-		};
-		CEEC136421F8596900D393B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9FFE14DBA4520FA161DBDDF1 /* Pods-CoffeeDeliveryTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoffeeDeliveryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.takeme.CoffeeDeliveryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CoffeeDelivery.app/CoffeeDelivery";
-			};
-			name = Release;
-		};
-		CEEC136621F8596900D393B1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 428509C29F5135388E62A9B5 /* Pods-CoffeeDeliveryUITests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoffeeDeliveryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.takeme.CoffeeDeliveryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TakeMePaySDKDemo;
-			};
-			name = Debug;
-		};
-		CEEC136721F8596900D393B1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D96B3F38160CACC119FB1C27 /* Pods-CoffeeDeliveryUITests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = CoffeeDeliveryUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.takeme.CoffeeDeliveryUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TakeMePaySDKDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEEC132E21F8596800D393B1 /* Build configuration list for PBXProject "CoffeeDelivery" */ = {
+		13CA92F6226FF46500FCB226 /* Build configuration list for PBXProject "CoffeeDelivery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEEC135D21F8596900D393B1 /* Debug */,
-				CEEC135E21F8596900D393B1 /* Release */,
+				13CA930B226FF46600FCB226 /* Debug */,
+				13CA930C226FF46600FCB226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEEC135F21F8596900D393B1 /* Build configuration list for PBXNativeTarget "CoffeeDelivery" */ = {
+		13CA930D226FF46600FCB226 /* Build configuration list for PBXNativeTarget "CoffeeDelivery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEEC136021F8596900D393B1 /* Debug */,
-				CEEC136121F8596900D393B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEEC136221F8596900D393B1 /* Build configuration list for PBXNativeTarget "CoffeeDeliveryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEEC136321F8596900D393B1 /* Debug */,
-				CEEC136421F8596900D393B1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CEEC136521F8596900D393B1 /* Build configuration list for PBXNativeTarget "CoffeeDeliveryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEEC136621F8596900D393B1 /* Debug */,
-				CEEC136721F8596900D393B1 /* Release */,
+				13CA930E226FF46600FCB226 /* Debug */,
+				13CA930F226FF46600FCB226 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CEEC132B21F8596800D393B1 /* Project object */;
+	rootObject = 13CA92F3226FF46500FCB226 /* Project object */;
 }
