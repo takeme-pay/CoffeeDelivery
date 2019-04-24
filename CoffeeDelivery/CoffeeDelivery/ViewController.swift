@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController, TMPPaymentDelegate {
 
+    var isInProgress: Bool = false
+    
     @IBAction func payButtonAction(_ sender: UIButton) {
         // 1. init a source params with necessary information.
         // 2. create TMPPayment from sourceParams, ephemerKeyProvider and delegate.

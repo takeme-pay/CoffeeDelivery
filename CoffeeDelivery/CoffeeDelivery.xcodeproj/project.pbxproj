@@ -12,9 +12,11 @@
 		13CA9304226FF46600FCB226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CA9302226FF46600FCB226 /* Main.storyboard */; };
 		13CA9306226FF46600FCB226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CA9305226FF46600FCB226 /* Assets.xcassets */; };
 		13CA9309226FF46600FCB226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CA9307226FF46600FCB226 /* LaunchScreen.storyboard */; };
+		1E3C7DCD8D932BFE31F9DC97 /* Pods_CoffeeDelivery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F21DC8D510E47FF32766F5 /* Pods_CoffeeDelivery.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08F21DC8D510E47FF32766F5 /* Pods_CoffeeDelivery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoffeeDelivery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13C3EBC3226FFAC6001E2744 /* CoffeeDelivery-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoffeeDelivery-Bridging-Header.h"; sourceTree = "<group>"; };
 		13CA92FB226FF46600FCB226 /* CoffeeDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13CA92FE226FF46600FCB226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -23,6 +25,8 @@
 		13CA9305226FF46600FCB226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13CA9308226FF46600FCB226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13CA930A226FF46600FCB226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89CAAB08BE23F1AB0992FB9C /* Pods-CoffeeDelivery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeDelivery.debug.xcconfig"; path = "Target Support Files/Pods-CoffeeDelivery/Pods-CoffeeDelivery.debug.xcconfig"; sourceTree = "<group>"; };
+		A89367E98AA1FC036FCCB33A /* Pods-CoffeeDelivery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeDelivery.release.xcconfig"; path = "Target Support Files/Pods-CoffeeDelivery/Pods-CoffeeDelivery.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3C7DCD8D932BFE31F9DC97 /* Pods_CoffeeDelivery.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +46,8 @@
 			children = (
 				13CA92FD226FF46600FCB226 /* CoffeeDelivery */,
 				13CA92FC226FF46600FCB226 /* Products */,
+				1ED5157FE227E5F85EC39460 /* Pods */,
+				5962B43B6DA9E2E62C2A2FE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +73,23 @@
 			path = CoffeeDelivery;
 			sourceTree = "<group>";
 		};
+		1ED5157FE227E5F85EC39460 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89CAAB08BE23F1AB0992FB9C /* Pods-CoffeeDelivery.debug.xcconfig */,
+				A89367E98AA1FC036FCCB33A /* Pods-CoffeeDelivery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5962B43B6DA9E2E62C2A2FE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08F21DC8D510E47FF32766F5 /* Pods_CoffeeDelivery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -73,9 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13CA930D226FF46600FCB226 /* Build configuration list for PBXNativeTarget "CoffeeDelivery" */;
 			buildPhases = (
+				6BD1396AB11CC8BC19225562 /* [CP] Check Pods Manifest.lock */,
 				13CA92F7226FF46600FCB226 /* Sources */,
 				13CA92F8226FF46600FCB226 /* Frameworks */,
 				13CA92F9226FF46600FCB226 /* Resources */,
+				ACC9133F46B9F48C21A770E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BD1396AB11CC8BC19225562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoffeeDelivery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC9133F46B9F48C21A770E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CoffeeDelivery/Pods-CoffeeDelivery-frameworks.sh",
+				"${PODS_ROOT}/TakeMePaySDK/TakeMePaySDK.framework",
+				"${PODS_ROOT}/TakeMePaySDK-WeChatPaySupport/TakeMePayWeChatPaySupport.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TakeMePaySDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TakeMePayWeChatPaySupport.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CoffeeDelivery/Pods-CoffeeDelivery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		13CA92F7226FF46600FCB226 /* Sources */ = {
@@ -283,10 +358,12 @@
 		};
 		13CA930E226FF46600FCB226 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89CAAB08BE23F1AB0992FB9C /* Pods-CoffeeDelivery.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PJ9ZXKZXY;
 				INFOPLIST_FILE = CoffeeDelivery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,10 +380,12 @@
 		};
 		13CA930F226FF46600FCB226 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89367E98AA1FC036FCCB33A /* Pods-CoffeeDelivery.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7PJ9ZXKZXY;
 				INFOPLIST_FILE = CoffeeDelivery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

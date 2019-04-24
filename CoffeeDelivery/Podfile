@@ -7,4 +7,8 @@ target 'CoffeeDelivery' do
 
   # Pods for CoffeeDelivery
 
+pod 'TakeMePaySDK'
+
+pod 'TakeMePaySDK-WeChatPaySupport'
+
 end
