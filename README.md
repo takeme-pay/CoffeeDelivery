@@ -1,6 +1,6 @@
 # CoffeeDelivery
 
-Contained, in this repo, is the full and completed Swift demo app for the Take Me Pay SDK.
+Contained, in this repo, is the full and completed Swift demo app for the Wechat TakeMePaySDK.
 
 ### NOTE:
 Please the project requires ```pod install``` in order to run properly.
