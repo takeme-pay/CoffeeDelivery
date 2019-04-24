@@ -3,7 +3,7 @@
 Contained, in this repo, is the full and completed Swift demo app for the TakeMePaySDK.
 
 ### NOTE:
-Please the project requires ```pod install``` in order to run properly.
+Please note that the project requires ```pod install``` in order to run properly.
 
 The project requires the commandline tool COCOAPODS, the XCode IDE, and Mac OSX to complete. Plesase refer to the link below for further information.
 
