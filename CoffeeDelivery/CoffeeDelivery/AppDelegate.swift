@@ -3,7 +3,7 @@
 //  CoffeeDelivery
 //
 //  Created by Tyler Wells on 2019/04/24.
-//  Copyright © 2019 Tyler Wells. All rights reserved.
+//  Copyright © 2019 Japan Foodie. All rights reserved.
 //
 
 import UIKit
@@ -15,8 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        TakeMePay.publicKey = "pk_test_sDkS-Zn8sf8iv0HgW7S9HBLd1LRwk7aAQ9yWVghD"
+        TakeMePay.wechatPayAppId = "wxf2ac9aae739daee5"
         return true
+    }
+    
+    
+    // This method is required to work with external apps and the TakeMePaySDK
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        return TakeMePay.shouldHandle(with: url)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
