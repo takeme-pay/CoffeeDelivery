@@ -10,11 +10,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    var isInProgress: Bool = false
+    
+    @IBAction func payButtonAction(_ sender: UIButton) {
+        
     }
-
-
+    
+    fileprivate func getDisplayStringsFor(_ state: TMPPaymentRequestState) -> (String, String) {
+        switch state {
+        case .success:
+            return ("Payment succeeded", "You got a coffee :)")
+        case .failure:
+            return ("Payment failed", "Payment failed with specific payment method, please check the logs")
+        case .canceled:
+            return ("Payment canceled", "You canceled the payment")
+        default:
+            return ("","")
+        }
+    }
 }
 
