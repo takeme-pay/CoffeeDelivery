@@ -1,6 +1,10 @@
 # CoffeeDelivery
 
-Contained, in this repo, is the full and completed Objective-C demo app for the TakeMePaySDK.
+You may Switch between the Objective-C and Swift versions by selecting, cloning, or checking out the branches here:
+
+![alt text]()
+
+Contained, in this repo branch, is the full and completed Objective-C demo app for the TakeMePaySDK.
 
 ### NOTE:
 Please note that the project requires ```pod install``` in order to run properly.
