@@ -1,6 +1,6 @@
 # CoffeeDelivery
 
-Contained, in this repo, is the full and completed Swift demo app for the TakeMePaySDK.
+Contained, in this Repo Branch, is the full and completed Swift demo app for the TakeMePaySDK.
 
 ### NOTE:
 Please note that the project requires ```pod install``` in order to run properly.
