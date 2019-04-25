@@ -1,6 +1,6 @@
 # CoffeeDelivery
 
-This REPO is the beginning of the project for the TakeMePaySDK tutorial.
+This Repo Branch is the beginning of the project for the TakeMePaySDK tutorial.
 
 The project requires the commandline tool COCOAPODS, the XCode IDE, and Mac OSX to complete. Plesase refer to the link below for further information.
 
