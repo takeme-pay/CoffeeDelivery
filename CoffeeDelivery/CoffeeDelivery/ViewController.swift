@@ -27,7 +27,7 @@ class ViewController: UIViewController, TMPPaymentDelegate {
         payment.startAction(["useTapticEngine": true])
     }
     
-    fileprivate func getDisplayStringsFor(_ state: TMPPaymentRequestState) -> (String, String) {
+    fileprivate func getDisplayStringsFor(_ state: TMPPaymentResultState) -> (String, String) {
         switch state {
         case .success:
             return ("Payment succeeded", "You got a coffee :)")
@@ -40,7 +40,7 @@ class ViewController: UIViewController, TMPPaymentDelegate {
         }
     }
     
-    func payment(_ payment: TMPPayment, didFinishWith state: TMPPaymentRequestState, userInfo: [AnyHashable : Any]? = nil) {
+    func payment(_ payment: TMPPayment, didFinishWith state: TMPPaymentResultState, userInfo: [AnyHashable : Any]? = nil) {
         self.isInProgress = false
         
         // Get our alert messages for displaying

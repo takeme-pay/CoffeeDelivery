@@ -1,7 +1,7 @@
 PODS:
-  - TakeMePaySDK (0.0.23)
-  - TakeMePaySDK-WeChatPaySupport (0.0.4):
-    - TakeMePaySDK (~> 0.0.19)
+  - TakeMePaySDK (0.0.37)
+  - TakeMePaySDK-WeChatPaySupport (0.0.15):
+    - TakeMePaySDK (~> 0.0.37)
 
 DEPENDENCIES:
   - TakeMePaySDK
@@ -13,8 +13,8 @@ SPEC REPOS:
     - TakeMePaySDK-WeChatPaySupport
 
 SPEC CHECKSUMS:
-  TakeMePaySDK: 3d3f17d125f3f96483e0e3c8d6bb3c934a74dee1
-  TakeMePaySDK-WeChatPaySupport: 49b05335fee9909dbd8d37691221c95ce8fd9d4e
+  TakeMePaySDK: c8fc991626a030b796f1f05f367880c7068d44df
+  TakeMePaySDK-WeChatPaySupport: e7ab96611b6a0cdd95d59a011dde6c22d13e0b2d
 
 PODFILE CHECKSUM: 1b6150100006a1e2aca8234b3a5c24557b57b026
 
