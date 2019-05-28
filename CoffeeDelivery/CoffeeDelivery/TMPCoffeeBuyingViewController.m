@@ -72,7 +72,7 @@ typedef NS_ENUM(NSInteger, TMPExampleResult) {
 
 #pragma mark - TMPPaymentDelegate
 
-- (void)payment:(TMPPayment *)payment didFinishWithState:(TMPPaymentResultState)state userInfo:(NSDictionary *)userInfo {
+- (void)payment:(TMPPayment *)payment didFinishWithState:(TMPPaymentResultState)state error:(NSError *)error userInfo:(NSDictionary *)userInfo {
     // reset inProgress flag
     self.inProgress = NO;
     
