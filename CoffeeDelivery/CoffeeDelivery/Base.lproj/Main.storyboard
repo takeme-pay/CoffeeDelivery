@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="Zvw-oo-zpI">
             <objects>
-                <viewController id="Ias-lc-ygL" customClass="ViewController" customModule="CoffeeDeliverySwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ias-lc-ygL" customClass="ViewController" customModule="CoffeeDelivery" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ort-zq-5v2">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -92,7 +92,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <action selector="payButtonAction:" destination="Ias-lc-ygL" eventType="touchUpInside" id="uea-cu-KqB"/>
+                                            <action selector="payButtonAction:" destination="Ias-lc-ygL" eventType="touchUpInside" id="R0o-BM-Q1c"/>
                                         </connections>
                                     </button>
                                 </subviews>

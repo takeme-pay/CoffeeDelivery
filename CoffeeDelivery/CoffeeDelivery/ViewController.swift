@@ -40,7 +40,7 @@ class ViewController: UIViewController, TMPPaymentDelegate {
         }
     }
     
-    func payment(_ payment: TMPPayment, didFinishWith state: TMPPaymentResultState, userInfo: [AnyHashable : Any]? = nil) {
+    func payment(_ payment: TMPPayment, didFinishWith state: TMPPaymentResultState, error: Error?, userInfo: [AnyHashable : Any]? = nil) {
         self.isInProgress = false
         
         // Get our alert messages for displaying
